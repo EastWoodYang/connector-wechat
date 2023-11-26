@@ -22,4 +22,4 @@ jobs:
           go-version: 1.19
 
       - name: Build
-        run: ./answer build --with conector-wechat@1.0.0=./connector-wechat
+        run: ./answer build --with conector-wechat@1.0.0=${{ github.workspace }}/connector-wechat
