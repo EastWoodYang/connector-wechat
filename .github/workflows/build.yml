@@ -24,7 +24,7 @@ jobs:
       - name: Setup pnpm
         run: |
           wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
-          source /root/.bashrc
+          source /home/runner/.bashrc
 
       - name: Build
         run: ./answer build --with conector-wechat@1.0.0=${{ github.workspace }}/connector-wechat
