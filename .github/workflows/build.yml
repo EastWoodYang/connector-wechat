@@ -27,4 +27,5 @@ jobs:
           version: 8
 
       - name: Build
-        run: ./answer build --with conector-wechat@1.0.0=${{ github.workspace }}/connector-wechat
+        # run: ./answer build --with conector-wechat@1.0.0=${{ github.workspace }}/connector-wechat
+        run: ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
