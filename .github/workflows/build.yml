@@ -22,9 +22,9 @@ jobs:
           go-version: 1.19
 
       - name: Setup pnpm
-        run: |
-          wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
-          source /home/runner/.bashrc
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
 
       - name: Build
         run: ./answer build --with conector-wechat@1.0.0=${{ github.workspace }}/connector-wechat
