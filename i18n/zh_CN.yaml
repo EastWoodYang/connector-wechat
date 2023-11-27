@@ -5,17 +5,17 @@ plugin:
         other: 微信
       info:
         name:
-          other: 微信 连接器
+          other: 微信公众号Oauth2.0
         description:
-          other: 用于接入 微信 第三方登录
+          other: 微信公众号Oauth2.0
       config:
         client_id:
           title:
-            other: ClientID
+            other: AppId
           description:
-            other: 微信 创建的应用后获取的 Client ID
+            other: 微信公众号的AppID
         client_secret:
           title:
-            other: ClientSecret
+            other: AppSecret
           description:
-            other: 微信 创建的应用后获取的 Client Secret
+            other: 微信公众号的App Secret
