@@ -1,5 +1,5 @@
 plugin:
-  github_connector:
+  wechat_connector:
     backend:
       name:
         other: 微信
