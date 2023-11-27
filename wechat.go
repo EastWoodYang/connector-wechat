@@ -62,11 +62,11 @@ func (g *Connector) ConnectorReceiver(ctx *plugin.GinContext, receiverURL string
 	}
 	weChatUserInfo, err := weChatOauth.GetUserInfo(weChatToken.AccessToken, weChatToken.OpenId)
 	userInfo = plugin.ExternalLoginUserInfo{
-		ExternalID:  "1",
+		ExternalID:  weChatToken.OpenId,
 		DisplayName: weChatUserInfo.Nickname,
 		Username:    weChatUserInfo.Nickname,
 		Avatar:      weChatUserInfo.Avatar,
-		Email:       "",
+		Email:       "please-change-email@hassbox.cn",
 		MetaInfo:    "",
 	}
 	return userInfo, nil
