@@ -2,17 +2,16 @@ module connector-wechat
 
 go 1.19
 
+require github.com/apache/incubator-answer v1.2.1-0.20231101064835-a458f3409c91
+
 require (
-	github.com/apache/incubator-answer v1.2.1-0.20231101064835-a458f3409c91
-	github.com/google/go-github/v50 v50.1.0
-	github.com/segmentfault/pacman v1.0.5-0.20230822083413-c0075a2d401f
-	golang.org/x/oauth2 v0.4.0
+	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/segmentfault/pacman v1.0.5-0.20230822083413-c0075a2d401f // indirect
 )
 
 require (
 	github.com/EastWoodYang/goauth v0.0.0-20231127012356-4046b4a46e0f
 	github.com/LinkinStars/go-i18n/v2 v2.2.2 // indirect
-	github.com/apache/incubator-answer-plugins/connector-github v0.0.0-20231101074238-9b07b791150f
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
@@ -23,8 +22,6 @@ require (
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.14.0 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/wire v0.5.0 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
@@ -45,7 +42,6 @@ require (
 	golang.org/x/net v0.15.0 // indirect
 	golang.org/x/sys v0.12.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
