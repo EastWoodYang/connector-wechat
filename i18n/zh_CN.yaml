@@ -1,0 +1,21 @@
+plugin:
+  github_connector:
+    backend:
+      name:
+        other: 微信
+      info:
+        name:
+          other: 微信 连接器
+        description:
+          other: 用于接入 微信 第三方登录
+      config:
+        client_id:
+          title:
+            other: ClientID
+          description:
+            other: 微信 创建的应用后获取的 Client ID
+        client_secret:
+          title:
+            other: ClientSecret
+          description:
+            other: 微信 创建的应用后获取的 Client Secret

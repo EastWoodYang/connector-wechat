@@ -1,0 +1,21 @@
+plugin:
+  wechat_connector:
+    backend:
+      name:
+        other: Wechat
+      info:
+        name:
+          other: Wechat Connector
+        description:
+          other: Connect to Wechat for third-party login
+      config:
+        client_id:
+          title:
+            other: ClientID
+          description:
+            other: Client ID of your Wechat application
+        client_secret:
+          title:
+            other: ClientSecret
+          description:
+            other: Client secret of your Wechat application
