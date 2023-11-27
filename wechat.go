@@ -44,7 +44,7 @@ func (g *Connector) ConnectorName() plugin.Translator {
 }
 
 func (g *Connector) ConnectorSlugName() string {
-	return "wechat"
+	return "wechat_connector"
 }
 
 func (g *Connector) ConnectorSender(ctx *plugin.GinContext, receiverURL string) (redirectURL string) {
@@ -66,7 +66,7 @@ func (g *Connector) ConnectorReceiver(ctx *plugin.GinContext, receiverURL string
 		DisplayName: weChatUserInfo.Nickname,
 		Username:    weChatUserInfo.Nickname,
 		Avatar:      weChatUserInfo.Avatar,
-		Email:       "please-change-email@hassbox.cn",
+		Email:       "temp_" + weChatToken.OpenId + "@hassbox.cn",
 		MetaInfo:    "",
 	}
 	return userInfo, nil
@@ -92,7 +92,7 @@ func (g *Connector) ConfigFields() []plugin.ConfigField {
 			Description: plugin.MakeTranslator(i18n.ConfigClientSecretDescription),
 			Required:    true,
 			UIOptions: plugin.ConfigFieldUIOptions{
-				InputType: plugin.InputTypeText,
+				InputType: plugin.InputTypePassword,
 			},
 			Value: g.Config.ClientSecret,
 		},
