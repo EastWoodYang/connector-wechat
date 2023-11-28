@@ -13,7 +13,7 @@ plugin:
           title:
             other: AppId
           description:
-            other: 微信公众号的AppID
+            other: 微信公众号的App ID
         client_secret:
           title:
             other: AppSecret
