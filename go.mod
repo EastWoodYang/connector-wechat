@@ -10,7 +10,7 @@ require (
 )
 
 require (
-	github.com/EastWoodYang/goauth v0.0.0-20231127012356-4046b4a46e0f
+	github.com/EastWoodYang/goauth v0.0.1 // indirect
 	github.com/LinkinStars/go-i18n/v2 v2.2.2 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
