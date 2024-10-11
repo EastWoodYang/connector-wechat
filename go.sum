@@ -1,7 +1,9 @@
 github.com/BurntSushi/toml v1.0.0 h1:dtDWrepsVPfW9H/4y7dDgFc2MBUSeJhlaDtK13CxFlU=
 github.com/BurntSushi/toml v1.0.0/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
-github.com/EastWoodYang/goauth v0.0.1 h1:TxBdKsO9M0mCuTyfsngKwPtAEpjsbmU1admJPHAsyZk=
-github.com/EastWoodYang/goauth v0.0.1/go.mod h1:JvO7IYx1tnzYinE8d/aAXSk5Qw+qwoy5R5pJdlh5wno=
+github.com/EastWoodYang/glib v1.0.3 h1:NKBmnGbS6WXpnuH9amauwWlp4mXtgR/76QURCiFldXU=
+github.com/EastWoodYang/glib v1.0.3/go.mod h1:IL7/Q9CA8bDEo6wltE3QxSW4NNcF4PAwBsTX3ktjZO0=
+github.com/EastWoodYang/goauth v0.0.2 h1:AW1UmyUkOxkM8Swk94tadO1nAy7wzOcKWNBb4I10278=
+github.com/EastWoodYang/goauth v0.0.2/go.mod h1:acz1OgIvMcJtT5DnrYB+ZNqHE6dNFKdAaftfEAMGrao=
 github.com/LinkinStars/go-i18n/v2 v2.2.2 h1:ZfjpzbW13dv6btv3RALKZkpN9A+7K1JA//2QcNeWaxU=
 github.com/LinkinStars/go-i18n/v2 v2.2.2/go.mod h1:hLglSJ4/3M0Y7ZVcoEJI+OwqkglHCA32DdjuJJR2LbM=
 github.com/apache/incubator-answer v1.3.6 h1:OddJdWqDrgIKY2wnLOipT3mjNI9h7fLNc4eEyyUp+hs=
@@ -68,8 +70,6 @@ github.com/pelletier/go-toml/v2 v2.0.8/go.mod h1:vuYfssBdrU2XDZ9bYydBu6t+6a6PYNc
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rogpeppe/go-internal v1.8.0 h1:FCbCCtXNOY3UtUuHUYaghJg4y7Fd14rXifAYUAtL9R8=
-github.com/sanxia/glib v1.0.2 h1:aZ/HIzokhwdWusfy8NBJaIyn/SC2BzMdPwLfduV4Sh0=
-github.com/sanxia/glib v1.0.2/go.mod h1:q0sC1kwHO9NZXCTQ2v3OLYLWzh2RVlDPsqZmurN9kVs=
 github.com/segmentfault/pacman v1.0.5-0.20230822083413-c0075a2d401f h1:9f2Bjf6bdMvNyUop32wAGJCdp+Jdm/d6nKBYvFvkRo0=
 github.com/segmentfault/pacman v1.0.5-0.20230822083413-c0075a2d401f/go.mod h1:5lNp5REd8QMThmBUvR3Fi9Y3AsOB4GRq7soCB4QLqOs=
 github.com/segmentfault/pacman/contrib/i18n v0.0.0-20230516093754-b76aef1c1150 h1:OEuW1D7RGDE0CZDr0oGMw9Eiq7fAbD9C4WMrvSixamk=

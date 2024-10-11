@@ -3,7 +3,7 @@ module github.com/EastWoodYang/connector-wechat
 go 1.19
 
 require (
-	github.com/EastWoodYang/goauth v0.0.1
+	github.com/EastWoodYang/goauth v0.0.2
 	github.com/apache/incubator-answer v1.3.6
 )
 
@@ -13,6 +13,7 @@ require (
 )
 
 require (
+	github.com/EastWoodYang/glib v1.0.3 // indirect
 	github.com/LinkinStars/go-i18n/v2 v2.2.2 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
@@ -35,7 +36,6 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
-	github.com/sanxia/glib v1.0.2 // indirect
 	github.com/segmentfault/pacman/contrib/i18n v0.0.0-20230516093754-b76aef1c1150 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.11 // indirect
