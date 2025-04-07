@@ -1,0 +1,5 @@
+slug_name: wechat_connector
+type: connector
+version: 1.1.2
+author: hassbox
+link: https://github.com/EastWoodYang/connector-wechat
